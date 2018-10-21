@@ -31,7 +31,7 @@ Vulnerability #2: User Enumeration
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference
-Red site has certain staff member data that is not supposed to be seen by the public. It can be accessed by using the url: https://xx.xxx.xx.xxx/red/public/salesperson.php?id=[enter number here]. A user can simply change the number at the end to access hidden data.
+Red site has certain staff member data that is not supposed to be seen by the public. It can be accessed by using the url: https://<span></span>xx.xxx.xx.xxx/red/public/salesperson.php?id=[enter number here]. A user can simply change the number at the end to access hidden data.
 
   <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/IDOR.gif" width="800">
 
