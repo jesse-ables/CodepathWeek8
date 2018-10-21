@@ -35,7 +35,7 @@ Vulnerability #1: Insecure Direct Object Reference
 Vulnerability #2: Cross-Site Request Forgery
 Red site does not validate csrf tokens allowing it to be attacked using an auto-submitting form. An attacker could use social engineering in the form of an email or using the contact form on the red website. In my gif, I have the admin copy and paste a link into the address bar. This was much easier to show off than creating a link in the contact form.
 
-  <img src="https://github.com/jesse-ables/Codepath-Week-7/blob/master/XSSvulnerability.gif" width="800">
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/forgery.gif" width="800">
 
 
 ## Notes
