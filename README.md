@@ -17,6 +17,9 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: Session Hijacking
+Blue site does not properly refresh its session ids for logged in users. If a session id was stolen through xss or some other fashion, then a malicious user could get admin access without a password. In the given gif, I use the session id of a user logged in in a different browser. Changing the cookie in Chrome allows me to log in without a username or password.
+
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/hijack.gif" width="800">
 
 Vulnerability #2: SQL Injection
 Blue site allows for SQL commands to be put into the url on the staff pages. The user can change the final field on the following url: https://<span></span>xx.xxx.xx.xxx/blue/public/salesperson.php?id=[SQLi Here]. The command in the gif causes the page to take longer to load, allowing an attacker to know that a site is vulnerable.
