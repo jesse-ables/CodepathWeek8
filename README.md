@@ -31,6 +31,9 @@ Vulnerability #2: User Enumeration
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference
+Red site has certain staff member data that is not supposed to be seen by the public. It can be accessed by using the url: https://xx.xxx.xx.xxx/red/public/salesperson.php?id=[enter number here]. A user can simply change the number at the end to access hidden data.
+
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/IDOR.gif" width="800">
 
 Vulnerability #2: Cross-Site Request Forgery
 Red site does not validate csrf tokens allowing it to be attacked using an auto-submitting form. An attacker could use social engineering in the form of an email or using the contact form on the red website. In my gif, I have the admin copy and paste a link into the address bar. This was much easier to show off than creating a link in the contact form.
