@@ -24,6 +24,9 @@ Vulnerability #2: SQL Injection
 ## Green
 
 Vulnerability #1: Cross-Site Scripting
+Green site does not properly check for <script> tags in its comments page. A user can simply create a xss using <script>alert("hacking happening now")</script>
+  
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/xss.gif" width="800">
 
 Vulnerability #2: User Enumeration
 
