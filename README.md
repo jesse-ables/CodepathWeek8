@@ -43,4 +43,6 @@ Red site does not validate csrf tokens allowing it to be attacked using an auto-
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The most complicated part was finding certain attack surfaces. I didn't realize that the SQLi attack would be done inside of a url.
+
+On a small note, it is possible to create a small availability attack on a certain part of the green site by creating an auto submitting form in the contact us page. It will always attempt to submit, making it impossible to view comments from customer. Maybe this is considered a DOS attack. 
