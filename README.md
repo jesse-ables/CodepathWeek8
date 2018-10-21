@@ -19,6 +19,9 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: Session Hijacking
 
 Vulnerability #2: SQL Injection
+Blue site allows for SQL commands to be put into the url on the staff pages. The user can change the final field on the following url: https://<span></span>xx.xxx.xx.xxx/blue/public/salesperson.php?id=[SQLi Here]. The command in the gif causes the page to take longer to load, allowing an attacker to know that a site is vulnerable.
+
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/sqli.gif" width="800">
 
 
 ## Green
