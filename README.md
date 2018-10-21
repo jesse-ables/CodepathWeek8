@@ -29,6 +29,9 @@ Green site does not properly check for <script> tags in its comments page. A use
   <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/xss.gif" width="800">
 
 Vulnerability #2: User Enumeration
+Green site has a small trick when it comes to showing whether or not a user exists or does not exist. If the username does not exist, it  will return a message stating: "Login was Unsuccessful". If the username does exist, it will return a message stating: "**Login was Unsuccessful**". Bold if a user does exist, and not bold if a user doesn't exist
+
+  <img src="https://github.com/jesse-ables/CodepathWeek8/blob/master/userenumeration.gif" width="800">
 
 
 ## Red
